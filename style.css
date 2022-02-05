@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: lobster;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+}
+
+.menu {
+    font-family: sans-serif;
+    z-index: 10;
+    position: fixed;
+    list-style: none;
+    cursor: pointer;
+    width:100%;
+    background:white;
+    margin-top:0px;
+    top:0px;
+    
+}
+
+.links {
+    color: #fff;
+    font-family: fantasy;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+    color: red;
+    display:inline;
+    
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration:underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: fuchsia;
+}
+#contact {
+    background-color:firebrick;
+}
+#contact iframe{
+    width:100%;
+}
+.contact_1 h3{
+    display:inline;
+}
+.contact_1 a{
+    color:white;
+    text-shadow: none;
+}
